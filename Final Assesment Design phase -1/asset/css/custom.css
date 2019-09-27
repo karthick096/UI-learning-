@@ -329,3 +329,30 @@
   text-align: center; 
   color: #ffffff;
 }
+
+
+
+
+@media screen and (max-width : 1376px) {
+
+ .wrapper .row .slider-image .carousel-overlay {
+  height:100%;
+  position:absolute;
+  width: 100%;
+  z-index: 111;
+  top: 0;
+  padding-top:3%;
+}
+
+.carousel-overlay .row {
+	padding: 33px;
+}
+.wrapper .card-carousel {
+	height:405px !important;
+}
+	
+	
+}
+
+
+
