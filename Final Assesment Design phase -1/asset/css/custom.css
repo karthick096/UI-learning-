@@ -357,9 +357,6 @@
 @media screen and (max-width : 1024px) {
 
 
- .trip-services {
-	 height:unset !important;
- }
   .wrapper .row .slider-image .carousel-overlay {
   height:100%;
   position:absolute;
