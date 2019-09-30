@@ -366,7 +366,7 @@
   width: 100%;
   z-index: 111;
   top: 0;
-  padding-top:15%;
+  padding-top:3%;
 }
 
 .carousel-resp {
@@ -383,7 +383,7 @@
     width: 100%;
     z-index: 111;
     top: 0;
-    padding-top:15%;
+    padding-top:0%;
   }
 
   .carousel-resp {
