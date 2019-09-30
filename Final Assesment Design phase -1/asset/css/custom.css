@@ -42,7 +42,7 @@
   padding: 64px 0px 0px 25px;
 }
 .wrapper .row .slider-image .carousel-overlay .left-col-content h2 {
-  font-size: 54px;
+  font-size: 350%;
   font-weight: bold;
   color: #ffffff;
 }
@@ -50,7 +50,7 @@
   padding: 30px 27px 10px 25px;
 }
 .wrapper .row .slider-image .carousel-overlay .left-col-desc p{
-  font-size:18px;
+  font-size: 125%;
   color: #ffffff;
 }
 .wrapper .row .slider-image .carousel-overlay .left-col-button {
@@ -64,7 +64,7 @@
   padding:30px;
 }
 .wrapper .row .slider-image .ticket-booking .col-right h3 {
-  font-size: 27px;
+  font-size: 200%;
   font-weight: bold;
   text-align: left;
   padding: 10px 0px 15px 0px;
@@ -83,7 +83,7 @@
 .wrapper .row .slider-image .ticket-booking .col-right .col-right-label p, 
 .wrapper .row .slider-image .ticket-booking .col-right .col-right-label-time p {
   margin-bottom: 3px;
-  font-size: 18px;
+  font-size: 120%;
 }
 .wrapper .row .slider-image .ticket-booking .col-right .col-right-label select, 
 .wrapper .row .slider-image .ticket-booking .col-right .col-right-label-time select {
@@ -356,18 +356,50 @@
 
 @media screen and (max-width : 1024px) {
 
-
+/* 
+ .trip-services {
+	 height:unset !important;
+ } */
   .wrapper .row .slider-image .carousel-overlay {
   height:100%;
   position:absolute;
   width: 100%;
   z-index: 111;
   top: 0;
-  padding-top:3%;
-}
-	
+  padding-top:15%;
 }
 
+.carousel-resp {
+  padding-left: 50px !important;
+}
+  
+}
+
+@media screen and (max-width : 768px) {
+
+  .wrapper .row .slider-image .carousel-overlay {
+    height:100%;
+    position:absolute;
+    width: 100%;
+    z-index: 111;
+    top: 0;
+    padding-top:15%;
+  }
+
+  .carousel-resp {
+    padding-left: 35px !important;
+  }
+
+  .wrapper .row .slider-image .ticket-booking .col-right .col-right-label-time {
+    padding-bottom: 15px;
+    display: flex; 
+    flex-direction: row; 
+    color: #ffffff;
+    flex-wrap: wrap;
+  }
+
+
+  }
 
 
 
