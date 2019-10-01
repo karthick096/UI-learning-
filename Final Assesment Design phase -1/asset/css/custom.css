@@ -144,7 +144,7 @@
 }
 .wrapper .trip-services .left-col-Title h1 {
   font-weight: bold;
-  font-size:50px;
+  font-size: 250%;
 }
 .wrapper .trip-services .label-highlight {
   border: 3px solid black;
@@ -165,14 +165,14 @@
   width:100%;
 }
 .wrapper .trip-services .trip-service-list .service-details .details-label {
-  font-size:20px; 
+  font-size: 140%; 
   font-weight: bold; 
   padding-left: 31px;
   margin-bottom: 4px;
 }
 .wrapper .trip-services .trip-service-list .service-details .detail-desc {
   padding-left: 31px; 
-  font-size: 15px;
+  font-size: 100%;
   opacity: 0.5;
   font-weight: bold;
 }
@@ -188,14 +188,14 @@
   width:100%;
 }
 .wrapper .trip-services .trip-service-list-1 .service-details-1 .details-label-1 {
-  font-size:20px; 
+  font-size: 140%; 
   font-weight: bold; 
   padding-left: 31px;
   margin-bottom: 4px;
 }
 .wrapper .trip-services .trip-service-list-1 .service-details-1 .detail-desc-1 {
   padding-left: 31px; 
-  font-size: 15px;
+  font-size: 100%;
   opacity: 0.5;
   font-weight: bold;
 }
@@ -211,7 +211,7 @@
   padding-top:60px;
 }
 .wrapper .promotion-banner .content-placing  h2 {
-  font-size:45px; 
+  font-size: 270%; 
   color:#ffffff; 
   font-weight:bold; 
   display:inline-block;
@@ -398,6 +398,44 @@
     flex-wrap: wrap;
   }
 
+  .wrapper .trip-services .trip-service-list {
+    display: flex; 
+    flex-direction: row;
+    width:100%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+
+  .wrapper .trip-services .trip-service-list-1 {
+    display: flex; 
+    flex-direction: row;
+    width:100%;
+    padding-top:15px;
+    flex-wrap: wrap;
+  }
+
+  .wrapper .trip-services .left-col-Title {
+    padding-top:10px;
+    padding-left:28px;
+  }
+  .service-details .img-padding, .service-details-1 .img-padding {
+    padding-left: 10px !important;
+  }
+
+  .wrapper .promotion-banner .content-placing  button {
+    padding:10px;
+    width:15%; 
+    margin:-25px 0px 0px 40px;
+    border-radius: unset; 
+    background-color: #00adbd;
+  }
+
+  .wrapper .news-offer .view-more-offers {
+    position: relative;
+    left: 35%;
+    padding-top: 85px;
+    display: inline-block;
+  }
 
   }
 
