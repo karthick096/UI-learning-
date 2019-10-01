@@ -437,6 +437,14 @@
     display: inline-block;
   }
 
+  .card-carousel .carousel-spacing {
+    padding: 40px !important;
+  }
+
+  .wrapper .card-carousel {
+    height: 360px !important;
+  }
+
   }
 
 
