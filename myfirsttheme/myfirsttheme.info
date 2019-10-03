@@ -1,0 +1,20 @@
+  name = myfirsttheme
+  description = my first theme.
+  version = VERSION
+  core = 7.x
+  stylesheets[all][] = css/bootstrap.css
+  stylesheets[all][] = css/custom.css
+  stylesheets[all][] = css/global.css
+  stylesheets[all][] = css/font-awesome.min.css
+  
+  scripts[] = js/jquery.js
+  scripts[] = js/bootstrap.js
+  scripts[] = js/customScript.js
+
+  regions[header] = Header
+  regions[highlighted] = Highlighted
+  regions[help] = Help
+  regions[content] = Content
+  regions[sidebar_first] = Left sidebar
+  regions[sidebar_second] = Right sidebar
+  regions[footer] = Footer

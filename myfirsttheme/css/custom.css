@@ -1,0 +1,377 @@
+
+
+/*HeaderStyle*/
+
+.wrapper .row .header-nav {
+  height:130px; 
+  background:#094673;
+}
+
+.wrapper .row .header-nav .nav-logo {
+  margin-right: 10%;
+}
+
+.wrapper .row .header-nav .nav-menu-style a{
+  width: 100%;
+  font-size: 16px;
+  padding: 7px;
+  text-align: center;
+  margin-right: 25px;
+  color: #ffffff;
+}
+
+.wrapper .row .header-nav .nav-menu-style .menu-list-style a {
+  color: #000000;
+  text-align: left;
+}
+
+/*Booking Section*/
+
+.wrapper .row .slider-image .ticket-booking  select, .wrapper .row .slider-image .ticket-booking  button  {
+  border-radius: unset;
+}
+.wrapper .row .slider-image .carousel-overlay {
+  height:100%;
+  position:absolute;
+  width: 100%;
+  z-index: 111;
+   top: 0;
+   padding-top:12%;
+}
+.wrapper .row .slider-image .carousel-overlay .left-col-content {
+  padding: 64px 0px 0px 25px;
+}
+.wrapper .row .slider-image .carousel-overlay .left-col-content h2 {
+  font-size: 54px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.wrapper .row .slider-image .carousel-overlay .left-col-desc {
+  padding: 30px 27px 10px 25px;
+}
+.wrapper .row .slider-image .carousel-overlay .left-col-desc p{
+  font-size:18px;
+  color: #ffffff;
+}
+.wrapper .row .slider-image .carousel-overlay .left-col-button {
+  padding: 0px 27px 10px 25px;
+}
+.wrapper .row .slider-image .carousel-overlay .left-col-button button {
+  background-color: unset !important;
+  border-color: #ffffff !important;
+}
+.wrapper .row .slider-image .ticket-booking .col-right {
+  padding:30px;
+}
+.wrapper .row .slider-image .ticket-booking .col-right h3 {
+  font-size: 27px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 0px 15px 0px;
+  color: #ffffff;
+}
+.wrapper .row .slider-image .ticket-booking .col-right .col-right-label {
+  padding-bottom: 15px;
+  color: #ffffff;
+} 
+.wrapper .row .slider-image .ticket-booking .col-right .col-right-label-time {
+  padding-bottom: 15px;
+  display: flex; 
+  flex-direction: row; 
+  color: #ffffff;
+}
+.wrapper .row .slider-image .ticket-booking .col-right .col-right-label p, 
+.wrapper .row .slider-image .ticket-booking .col-right .col-right-label-time p {
+  margin-bottom: 3px;
+  font-size: 18px;
+}
+.wrapper .row .slider-image .ticket-booking .col-right .col-right-label select, 
+.wrapper .row .slider-image .ticket-booking .col-right .col-right-label-time select {
+  height: 50px;
+
+}
+.wrapper .row .slider-image .ticket-booking .col-right .col-right-search {
+  margin-bottom: 15px;
+}
+.wrapper .row .slider-image .ticket-booking .col-right .col-right-search button {
+  padding:15px;
+  background-color: #00adbd;
+  font-size: 18px;
+}
+
+/*Mini-slider*/
+
+
+
+.wrapper .card-carousel .multi-slider .multi-slider-1 .slider-tag {
+  position: absolute; 
+  bottom: 47px;
+   background:#fd8d04; 
+   width:106px;
+    padding:0px;
+}
+
+.wrapper .card-carousel .multi-slider .multi-slider-1 .slider-tag  p {
+  color:#ffffff;
+  font-weight: bold;
+  margin:3px; 
+  padding-left:9px;
+}
+
+.wrapper .card-carousel .multi-slider .multi-slider-1 .Trip-info {
+  font-weight: bold;
+  margin-top: 10px; 
+  color:#000000;
+}
+
+.carousel-indicators .active {
+  background-color: #fc9601;
+}
+.carousel-indicators li {
+  border:1px solid #c4c4c4;
+  background:#c4c4c4;
+  height: 15px;
+  width: 15px;
+}
+
+/*Mini-slider*/
+
+/*Trip-services*/
+
+.wrapper .trip-services .left-col-Title {
+  padding-top:108px;
+  padding-left:28px;
+}
+.wrapper .trip-services .left-col-Title h1 {
+  font-weight: bold;
+  font-size:50px;
+}
+.wrapper .trip-services .label-highlight {
+  border: 3px solid black;
+  margin-top:19px;
+  display: inline-block;
+  margin-left: 26px;
+  width: 70px;
+}
+.wrapper .trip-services .trip-service-list {
+  display: flex; 
+  flex-direction: row;
+  width:100%;
+  margin-top: 50px;
+}
+.wrapper .trip-services .trip-service-list .service-details {
+  display: flex; 
+  flex-direction:row;
+  width:100%;
+}
+.wrapper .trip-services .trip-service-list .service-details .details-label {
+  font-size:20px; 
+  font-weight: bold; 
+  padding-left: 31px;
+  margin-bottom: 4px;
+}
+.wrapper .trip-services .trip-service-list .service-details .detail-desc {
+  padding-left: 31px; 
+  font-size: 15px;
+  opacity: 0.5;
+  font-weight: bold;
+}
+.wrapper .trip-services .trip-service-list-1 {
+  display: flex; 
+  flex-direction: row;
+  width:100%;
+  padding-top:15px;
+}
+.wrapper .trip-services .trip-service-list-1 .service-details-1 {
+  display: flex; 
+  flex-direction:row;
+  width:100%;
+}
+.wrapper .trip-services .trip-service-list-1 .service-details-1 .details-label-1 {
+  font-size:20px; 
+  font-weight: bold; 
+  padding-left: 31px;
+  margin-bottom: 4px;
+}
+.wrapper .trip-services .trip-service-list-1 .service-details-1 .detail-desc-1 {
+  padding-left: 31px; 
+  font-size: 15px;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+/*promotional banner*/
+
+.wrapper .promotion-banner {
+  height:180px; 
+  background: #094371;
+}
+.wrapper .promotion-banner .content-placing {
+  text-align: center; 
+  padding-top:60px;
+}
+.wrapper .promotion-banner .content-placing  h2 {
+  font-size:45px; 
+  color:#ffffff; 
+  font-weight:bold; 
+  display:inline-block;
+}
+.wrapper .promotion-banner .content-placing  button {
+  padding:10px;
+  width:15%; 
+  margin:-25px 0px 0px 90px;
+  border-radius: unset; 
+  background-color: #00adbd;
+}
+.wrapper .news-offer {
+  height:950px; 
+  background:#ffffff;
+}
+.wrapper .news-offer .news-label {
+  text-align: center;
+  padding-top:110px;
+}
+.wrapper .news-offer .news-label h2 {
+  font-weight: bold;
+  font-size:45px;
+}
+.wrapper .news-offer .offer-cards {
+  padding-top:85px;
+}
+.wrapper .news-offer .offer-cards .card-details .travel-dates {
+  padding-bottom: 15px;
+}
+.wrapper .news-offer .offer-cards .card-details .travel-dates .travel-days {
+  margin: 0px 10px 0px 10px; 
+  opacity: 0.5;
+}
+.wrapper .news-offer .offer-cards .card-details .title-style {
+  font-size: 20px;
+  color: #0f9fb9;
+}
+.wrapper .news-offer .offer-cards .card-details .card-desc {
+  font-size: 15px; 
+  margin-bottom: 20px;
+}
+.wrapper .news-offer .offer-cards .card-details  .card-pin-1 {
+   padding: 5px 10px 5px 10px;
+   background-color: #e1e1e1; 
+   color:#79797a;
+}
+.wrapper .news-offer .offer-cards .card-details  .card-pin-2 {
+  padding: 5px 10px 5px 10px; 
+  background-color: #e1e1e1; 
+  color:#79797a;
+  margin-left: 5px;
+}
+.wrapper .news-offer .view-more-offers {
+  position: relative;
+  left: 41%;
+  padding-top: 85px;
+  display: inline-block;
+}
+.wrapper .news-offer .view-more-offers button {
+  background: unset; 
+  color: #0f9fb9; 
+  border-radius: unset; 
+  border:2px solid; 
+  padding: 15px 45px 15px 45px; 
+  font-size: 16px; 
+  font-weight: bold;
+}
+
+/*Footer- style*/
+
+.wrapper .footer {
+  height:745px;
+}
+.wrapper .footer .vacay-details {
+  height:490px;
+}
+.wrapper .footer .vacay-details .text-overlay {
+   position:absolute;
+   top:0;
+   text-align:center; 
+   width:100%; 
+   padding-top:197px; 
+}
+.wrapper .footer .vacay-details .text-overlay h3 {
+  color:#ffffff; 
+  font-weight:bold;
+}
+.wrapper .footer .vacay-details .text-overlay h1 {
+  color:#ffffff; 
+  font-weight:bold; 
+  font-size:3rem;
+}
+.wrapper .footer .vacay-details .text-overlay button {
+  margin-top:20px;
+  background:#fe8d03;
+  border-radius:unset; 
+  border:unset; 
+  width:140px; 
+  padding:9px;
+}
+.wrapper .footer .footer-details {
+  height: 255px;
+  background:#0a406c;
+}
+.wrapper .footer .footer-details .footer-logo {
+  text-align:center; 
+  margin-top:35px;
+}
+.wrapper .footer .footer-details .footer-logo img {
+  height:151px; 
+  width:150px;
+  border-radius: 100px;
+}
+.wrapper .footer .footer-details p {
+  text-align: center; 
+  color: #ffffff;
+}
+
+
+
+
+@media screen and (max-width : 1376px) {
+
+ .wrapper .row .slider-image .carousel-overlay {
+  height:100%;
+  position:absolute;
+  width: 100%;
+  z-index: 111;
+  top: 0;
+  padding-top:3%;
+}
+
+.carousel-overlay .row {
+	padding: 33px;
+}
+.wrapper .card-carousel {
+	height:405px !important;
+}
+	
+	
+}
+
+@media screen and (max-width : 1024px) {
+
+
+ .trip-services {
+	 height:unset !important;
+ }
+  .wrapper .row .slider-image .carousel-overlay {
+  height:100%;
+  position:absolute;
+  width: 100%;
+  z-index: 111;
+  top: 0;
+  padding-top:3%;
+}
+	
+}
+
+
+
+
+
