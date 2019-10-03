@@ -42,7 +42,7 @@
   padding: 64px 0px 0px 25px;
 }
 .wrapper .row .slider-image .carousel-overlay .left-col-content h2 {
-  font-size: 54px;
+  font-size: 350%;
   font-weight: bold;
   color: #ffffff;
 }
@@ -50,7 +50,7 @@
   padding: 30px 27px 10px 25px;
 }
 .wrapper .row .slider-image .carousel-overlay .left-col-desc p{
-  font-size:18px;
+  font-size: 125%;
   color: #ffffff;
 }
 .wrapper .row .slider-image .carousel-overlay .left-col-button {
@@ -64,7 +64,7 @@
   padding:30px;
 }
 .wrapper .row .slider-image .ticket-booking .col-right h3 {
-  font-size: 27px;
+  font-size: 200%;
   font-weight: bold;
   text-align: left;
   padding: 10px 0px 15px 0px;
@@ -83,7 +83,7 @@
 .wrapper .row .slider-image .ticket-booking .col-right .col-right-label p, 
 .wrapper .row .slider-image .ticket-booking .col-right .col-right-label-time p {
   margin-bottom: 3px;
-  font-size: 18px;
+  font-size: 120%;
 }
 .wrapper .row .slider-image .ticket-booking .col-right .col-right-label select, 
 .wrapper .row .slider-image .ticket-booking .col-right .col-right-label-time select {
@@ -144,7 +144,7 @@
 }
 .wrapper .trip-services .left-col-Title h1 {
   font-weight: bold;
-  font-size:50px;
+  font-size: 250%;
 }
 .wrapper .trip-services .label-highlight {
   border: 3px solid black;
@@ -165,14 +165,14 @@
   width:100%;
 }
 .wrapper .trip-services .trip-service-list .service-details .details-label {
-  font-size:20px; 
+  font-size: 140%; 
   font-weight: bold; 
   padding-left: 31px;
   margin-bottom: 4px;
 }
 .wrapper .trip-services .trip-service-list .service-details .detail-desc {
   padding-left: 31px; 
-  font-size: 15px;
+  font-size: 100%;
   opacity: 0.5;
   font-weight: bold;
 }
@@ -188,14 +188,14 @@
   width:100%;
 }
 .wrapper .trip-services .trip-service-list-1 .service-details-1 .details-label-1 {
-  font-size:20px; 
+  font-size: 140%; 
   font-weight: bold; 
   padding-left: 31px;
   margin-bottom: 4px;
 }
 .wrapper .trip-services .trip-service-list-1 .service-details-1 .detail-desc-1 {
   padding-left: 31px; 
-  font-size: 15px;
+  font-size: 100%;
   opacity: 0.5;
   font-weight: bold;
 }
@@ -211,7 +211,7 @@
   padding-top:60px;
 }
 .wrapper .promotion-banner .content-placing  h2 {
-  font-size:45px; 
+  font-size: 270%; 
   color:#ffffff; 
   font-weight:bold; 
   display:inline-block;
@@ -356,10 +356,10 @@
 
 @media screen and (max-width : 1024px) {
 
-
+/* 
  .trip-services {
 	 height:unset !important;
- }
+ } */
   .wrapper .row .slider-image .carousel-overlay {
   height:100%;
   position:absolute;
@@ -368,9 +368,84 @@
   top: 0;
   padding-top:3%;
 }
-	
+
+.carousel-resp {
+  padding-left: 50px !important;
+}
+  
 }
 
+@media screen and (max-width : 768px) {
+
+  .wrapper .row .slider-image .carousel-overlay {
+    height:100%;
+    position:absolute;
+    width: 100%;
+    z-index: 111;
+    top: 0;
+    padding-top:0%;
+  }
+
+  .carousel-resp {
+    padding-left: 35px !important;
+  }
+
+  .wrapper .row .slider-image .ticket-booking .col-right .col-right-label-time {
+    padding-bottom: 15px;
+    display: flex; 
+    flex-direction: row; 
+    color: #ffffff;
+    flex-wrap: wrap;
+  }
+
+  .wrapper .trip-services .trip-service-list {
+    display: flex; 
+    flex-direction: row;
+    width:100%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+
+  .wrapper .trip-services .trip-service-list-1 {
+    display: flex; 
+    flex-direction: row;
+    width:100%;
+    padding-top:15px;
+    flex-wrap: wrap;
+  }
+
+  .wrapper .trip-services .left-col-Title {
+    padding-top:10px;
+    padding-left:28px;
+  }
+  .service-details .img-padding, .service-details-1 .img-padding {
+    padding-left: 10px !important;
+  }
+
+  .wrapper .promotion-banner .content-placing  button {
+    padding:10px;
+    width:15%; 
+    margin:-25px 0px 0px 40px;
+    border-radius: unset; 
+    background-color: #00adbd;
+  }
+
+  .wrapper .news-offer .view-more-offers {
+    position: relative;
+    left: 35%;
+    padding-top: 85px;
+    display: inline-block;
+  }
+
+  .card-carousel .carousel-spacing {
+    padding: 40px !important;
+  }
+
+  .wrapper .card-carousel {
+    height: 360px !important;
+  }
+
+  }
 
 
 
