@@ -24,6 +24,10 @@
   color: #000000;
   text-align: left;
 }
+.wrapper .row .header-nav .collapse-style {
+ z-index: 123456;
+ background: #094673;  
+}
 
 /*Booking Section*/
 
