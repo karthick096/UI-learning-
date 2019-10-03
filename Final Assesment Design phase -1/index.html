@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Wire frame design">
 	<meta name="keywords" content="HTML,CSS,Bootstrap">
-	<title>web design Dashboard</title>
+	<title>web design Dashboard on learning2 test3</title>
 	<!-- Style -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -142,7 +142,7 @@
 												over the globe.Relax your body and soul in the most remote corners of
 												the world</p>
 										</div>
-										<div class="left-col-button">
+										<div class="left-col-button showAlert">
 											<button type="button" class="btn btn-primary" style="font-size:19px;">Learn
 												More</button>
 										</div>
@@ -193,7 +193,7 @@
 												</div>
 											</div>
 											<div class="col-right-search">
-												<button type="button" class="btn btn-primary w-100">Search</button>
+												<button type="button" class="btn btn-primary w-100 showAlert">Search</button>
 											</div>
 										</div>
 									</div>
@@ -449,7 +449,7 @@
 					<div class="content-placing">
 						<h2>See Our
 							Special Promo Offers</h2>
-						<button type="button" class="btn btn-primary">Get
+						<button type="button" class="btn btn-primary showAlert">Get
 							Started</button>
 					</div>
 				</div>
@@ -529,7 +529,7 @@
 						</div>
 					</div>
 					<div class="view-more-offers">
-						<button type="button" class="btn btn-primary">View
+						<button type="button" class="btn btn-primary showAlert">View
 							All News</button>
 					</div>
 				</div>
@@ -545,7 +545,7 @@
 								<h3>Get inspired for</h3>
 								<h1>Your Next Summer Vacation
 								</h1>
-								<button type="button" class="btn btn-primary">Read
+								<button type="button" class="btn btn-primary showAlert">Read
 									More</button>
 							</div>
 						</div>
@@ -584,6 +584,11 @@
 			   $(".resizeCol-2").addClass("col-xl-6");
 			   $(".resizeCol-2").removeClass("col-xl-5");
 			}
+			
+			$('.showAlert').click(function() {
+				alert("Database connection is not established");
+			});
+			
         });
 	</script>
 
