@@ -450,6 +450,58 @@
   }
 
   }
+  @media screen and (max-width : 426px) {
+      
+    .carousel-resp-left {
+      padding-right: 35px !important;
+    }
+
+    .carousel-indicators {
+      padding-top: 25px !important;
+    }
+
+    .wrapper .row .slider-image .carousel-overlay {
+      padding-top: 4%;
+    }
+
+    .trip-services .resp-position {
+      height:unset !important;
+    }
+
+    .wrapper .promotion-banner {
+      height: unset;
+    }
+    
+
+    .wrapper .promotion-banner .content-placing {
+      padding-top: 20px;
+    }
+    .wrapper .promotion-banner .content-placing h2 {
+      font-size: 210%;
+    }
+    .wrapper .promotion-banner .content-placing button {
+      width: 28%;
+      margin: 6px 0px 10px 0px;
+    }
+
+    .wrapper .news-offer .news-label {
+      padding-top: 45px;
+    }
+    .wrapper .news-offer .offer-cards {
+      padding-top: 60px;
+    }
+    .wrapper .news-offer {
+      height: unset;
+    }
+    .wrapper .news-offer .view-more-offers {
+      position: relative;
+      left: 15%;
+      padding-top: 55px;
+      padding-bottom: 55px;
+      display: inline-block;
+    }
+
+  }
 
 
 
