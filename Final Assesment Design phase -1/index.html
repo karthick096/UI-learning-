@@ -554,8 +554,9 @@
 						<div class="w-100 footer-logo">
 							<img src="asset/image/Logo.PNG">
 						</div>
-						<p class="w-100">© 2016 All Rights Reserved Terms of
-							Use and Privacy Policy</p>
+                        <p class="w-100">© 2016 All Rights Reserved Terms of Use and Privacy Policy</p>
+                        <div class="page-Scroller">
+                            <i class="fa fa-angle-up"></i>
 					</div>
 				</div>
 			</div>
@@ -588,7 +589,12 @@
 			$('.showAlert').click(function() {
 				alert("Database connection is not established");
 			});
-			
+
+            $('.page-Scroller').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 'slow');
+            });
         });
 	</script>
 
