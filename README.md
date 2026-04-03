@@ -1,15 +1,11 @@
-# UI-learning-
-For testing And learning purpose
+# Fellow Software Developer
+** Growing at one day at a time **
+path to become a not perfect but a good developer
+Enchancing one day at a time.
+Started learning and Refreshing topics in Javascript, React 
+Learning new things Just like DB, BE and other Architecture
 
-#Customised Theme integeration for Drupal 7
 
-==> In drupal local folder go to DrupalLocal-website\sites\all\themes 
-==> Inside themes paste the customised theme folder
-==> Now go to drupal site and click on appearence menu 
-==> Inside the appearence select your customise theme,
-	the drupal page get loaded with your customised theme.
-==> If you see any crash problems or improper UI alignment.
-	Go to Configuration -> Performence -> cache(clear all Cache), To see the changes.
 	
 
 
